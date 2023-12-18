@@ -3,16 +3,16 @@
 
 #include "Vec2.h"
 
-// enum MoveType{
-//     NormalMove,
-//     Enpassnt,
-//     Castle,
-//     Capture,
-//     PawnCapure,
-//     Check,
-//     DoublePawnMove,
-//     None
-// };
+enum MoveType{
+    NormalMove,
+    Enpassnt,
+    Castle,
+    Capture,
+    PawnCapure,
+    Check,
+    DoublePawnMove,
+    None
+};
 
 struct sMove
 {
