@@ -1,6 +1,7 @@
-#include "../headers/Board.h"
-#include "../headers/Vec2.h"
-#include "../headers/setting.h"
+#include "Board.h"
+#include "../Utils/setting.h"
+#include "Vec2.h"
+
 
 bool Board::MakeMove(Vec2 start, Vec2 end) {
 

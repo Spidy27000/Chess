@@ -3,16 +3,16 @@
 
 #include "Vec2.h"
 
-enum MoveType{
-    NormalMove,
-    Enpassnt,
-    Castle,
-    Capture,
-    PawnCapure,
-    Check,
-    DoublePawnMove,
-    None
-};
+// enum MoveType{
+//     NormalMove,
+//     Enpassnt,
+//     Castle,
+//     Capture,
+//     PawnCapure,
+//     Check,
+//     DoublePawnMove,
+//     None
+// };
 
 struct sMove
 {
@@ -25,11 +25,15 @@ struct sMove
     
 };
 
+// singleton clsss
+
 class Move{    
-public:
+private:
+    static Move* _inst;
     Move(){}
-
-
+public:
+    static Move * GetInst();
+     
 };
 
 #endif

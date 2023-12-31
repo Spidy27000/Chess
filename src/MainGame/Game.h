@@ -1,7 +1,8 @@
 #pragma once
 
-#include "Board.h"
-#include "Vec2.h"
+#include "../ChessApi/Board.h"
+#include "../ChessApi/Vec2.h"
+#include "../Utils/setting.h"
 #include "raylib.h"
 #include <string>
 #include <unordered_map>

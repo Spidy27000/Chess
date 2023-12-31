@@ -1,5 +1,5 @@
-#include "headers/Game.h"
-#include "headers/setting.h"
+#include "../Utils/setting.h"
+#include "Game.h"
 
 int main() {
 
