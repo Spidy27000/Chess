@@ -1,6 +1,7 @@
 #include "Game.h"
 #include "../ChessApi/Board.h"
 #include "../Utils/setting.h"
+#include "raylib.h"
 #include <iostream>
 
 Game::Game(int height, int width, int fps) {
